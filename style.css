@@ -1,0 +1,36 @@
+*
+{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-color: lightpink;
+    background-position: center;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.menu-bar{
+    background-color: rgb(197, 24, 111);
+    text-align: center;
+    color: whitesmoke;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: whitesmoke;
+}
+.menu-bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.active, .menu-bar ul li:hover
+{
+    background:   rgb(170, 19, 95);
+    border-radius: 3px;
+}
